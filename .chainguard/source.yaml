@@ -1,0 +1,8 @@
+spec:
+  authorities:
+    - keyless:
+        identities:
+          - issuer: https://accounts.google.com
+          - subjectRegExp: .*@denhamparry.co.uk$
+    - key:
+        kms: https://github.com/web-flow.gpg
